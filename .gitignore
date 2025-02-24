@@ -1,4 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vaadin,intellij+all,react,kotlin,gradle
+
+**/frontend/generated/**
+
 # Edit at https://www.toptal.com/developers/gitignore?templates=vaadin,intellij+all,react,kotlin,gradle
 
 ### Intellij+all ###
