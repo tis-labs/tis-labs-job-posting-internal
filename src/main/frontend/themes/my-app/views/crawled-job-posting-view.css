@@ -1,0 +1,24 @@
+.crawled-job-posting-view {
+  display: block;
+  height: 100%;
+}
+.crawled-job-posting-view vaadin-grid-pro {
+  height: 100%;
+}
+.crawled-job-posting-view vaadin-grid-filter,
+.crawled-job-posting-view vaadin-grid-filter > * {
+  width: 100%;
+}
+.crawled-job-posting-view vaadin-grid-pro vaadin-horizontal-layout {
+  align-items: center;
+}
+.crawled-job-posting-view vaadin-grid-pro img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: var(--lumo-size-m);
+  width: var(--lumo-size-m);
+}
+.crawled-job-posting-view .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
