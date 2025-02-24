@@ -1,4 +1,4 @@
-package posting.job.internal.crawled
+package posting.job.internal.viewd
 
 import com.vaadin.flow.component.html.Div
 import com.vaadin.flow.router.BeforeEnterEvent
@@ -8,13 +8,13 @@ import com.vaadin.flow.router.PageTitle
 import com.vaadin.flow.router.Route
 import org.vaadin.lineawesome.LineAwesomeIconUrl
 
-@PageTitle("수집된 채용공고")
-@Route("crawled-job-posting")
-@Menu(order = 1.0, icon = LineAwesomeIconUrl.TH_SOLID)
-class CrawledJobPostingView : BeforeEnterObserver, Div() {
+@PageTitle("노출된 채용공고")
+@Route("viewed-job-posting")
+@Menu(order = 2.0, icon = LineAwesomeIconUrl.TH_SOLID)
+class ViewedJobPostingView : BeforeEnterObserver, Div() {
 
     init {
-        addClassNames("crawled-job-posting-view")
+        addClassNames("viewed-job-posting-view")
 
     }
 
