@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/target/dev-bundle/config",
+  "jarResourcesFolder": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/./src/main/frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "/Users/this-is-spear/Documents/workspace/tis-labs-job-posting-internal/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
