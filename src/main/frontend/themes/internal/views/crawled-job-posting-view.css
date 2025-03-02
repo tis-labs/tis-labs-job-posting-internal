@@ -1,34 +1,34 @@
-.viewed-job-posting-view {
+.crawled-job-posting-view {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.viewed-job-posting-view vaadin-split-layout {
+.crawled-job-posting-view vaadin-split-layout {
   width: 100%;
   height: 100%;
 }
 
-.viewed-job-posting-view vaadin-grid {
+.crawled-job-posting-view vaadin-grid {
   height: 100%;
 }
 
-.viewed-job-posting-view .editor-layout {
+.crawled-job-posting-view .editor-layout {
   display: flex;
   flex-direction: column;
   width: 400px;
 }
 
-.viewed-job-posting-view .editor {
+.crawled-job-posting-view .editor {
   flex-grow: 1;
   padding: var(--lumo-space-l);
 }
 
-.viewed-job-posting-view .editor vaadin-checkbox {
+.crawled-job-posting-view .editor vaadin-checkbox {
   padding-top: var(--lumo-space-m);
 }
 
-.viewed-job-posting-view .button-layout {
+.crawled-job-posting-view .button-layout {
   width: 100%;
   flex-wrap: wrap;
   background-color: var(--lumo-contrast-5pct);
@@ -39,6 +39,6 @@
   gap: var(--lumo-space-m);
 }
 
-.viewed-job-posting-view .grid-wrapper {
+.crawled-job-posting-view .grid-wrapper {
   width: 100%;
 }
