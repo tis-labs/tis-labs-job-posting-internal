@@ -12,9 +12,6 @@ class CrawledJobPostingService(
         crawledJobPostingProjection.getCrawledJobPosting(jobId)
 
     fun updateAndAccept(crawledJobPosting: CrawledJobPosting) {
-        crawledJobPosting.update()
-        crawledJobPostingProjection.save(crawledJobPosting)
-        crawledJobPosting.accept()
         crawledJobPostingProjection.save(crawledJobPosting)
     }
 

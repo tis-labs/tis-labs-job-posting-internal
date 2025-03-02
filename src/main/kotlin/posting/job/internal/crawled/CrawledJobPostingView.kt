@@ -43,7 +43,7 @@ class CrawledJobPostingView(
 
     private val rejectButton = Button("REJECT")
     private val acceptButton = Button("ACCEPT")
-    private val updateAndAcceptButton = Button("UPDATE")
+    private val updateButton = Button("UPDATE")
 
     private lateinit var jobCompany: TextField
     private lateinit var jobTitle: TextField
@@ -108,7 +108,7 @@ class CrawledJobPostingView(
             }
         }
 
-        updateAndAcceptButton.addClickListener {
+        updateButton.addClickListener {
             try {
                 if (this.crawledJobPosting != null) {
                     val jobPosting = this.crawledJobPosting
@@ -196,8 +196,8 @@ class CrawledJobPostingView(
         buttonLayout.className = "button-layout"
         acceptButton.addThemeVariants(ButtonVariant.LUMO_SUCCESS)
         rejectButton.addThemeVariants(ButtonVariant.LUMO_ERROR)
-        updateAndAcceptButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY)
-        buttonLayout.add(acceptButton, rejectButton, updateAndAcceptButton)
+        updateButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY)
+        buttonLayout.add(acceptButton, rejectButton, updateButton)
         editorLayoutDiv.add(buttonLayout)
     }
 
